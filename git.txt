@@ -1,0 +1,33 @@
+Web: https://git-scm.com/
+
+---Instalar en linux
+
+https://git-scm.com/download/linux
+
+git --version : nos muestra la versión instalada
+
+git --help : nos muestra la ayuda
+
+---Configuracion es lo primero que hay que hacer para empezar a trabajar con git
+
+Con estos comandos configuras globalmente en tu equipo git con tus credenciales personales
+
+git config --global user.name "Nombre Usuario"
+git config --global user.email "user@correo.com"
+
+----Inicializar git
+
+git init: inicializa git en el directorio del proyecto donde queremos trabajar con la herramienta.
+          este comando genera el archivo .git dentro del directorio donde va estar el proyecto.
+          Al entrar en consola en el directorio del proyecto, podremos observar que nos indica
+          (master) ya que al inicializar se crea la rama master
+
+git branch -m main: con este comando cambiamos el nombre de la rama master a main. Pero realmente
+                    cambia el nombre de la rama ene la que uno se encuentra ubicado
+git branch -m nombre_viejo nombre_nuevo: renombra una rama específica
+
+git status: vemos el estado de git de nuestro proyecto
+git add nombre_archivo: añade el archivo al repositorio
+git add . : añade al repositorio todos los arcihvos modificados
+git commit -m "comentario": confirma o consolida los cambios que se han realizado, crea
+                            una instantanea del proyecto en el historial del repositorio
