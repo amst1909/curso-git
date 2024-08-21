@@ -32,3 +32,5 @@ git add . : añade al repositorio todos los arcihvos modificados
 git commit -m "comentario": confirma o consolida los cambios que se han realizado, crea
                             una instantanea del proyecto en el historial del repositorio
 git log: muestra el historial de commits en un repositorio
+git checkout nombre_archivo: nos regresa el archivo al estado del último commit
+git reset: nos devuelve el estado de los archivos del proyecto al último commit reralizado

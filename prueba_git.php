@@ -1,3 +1,3 @@
 <?php
 
-    echo "Hola git";
+    echo "Editando el archivo";
