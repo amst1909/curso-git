@@ -31,3 +31,4 @@ git add nombre_archivo: añade el archivo al repositorio
 git add . : añade al repositorio todos los arcihvos modificados
 git commit -m "comentario": confirma o consolida los cambios que se han realizado, crea
                             una instantanea del proyecto en el historial del repositorio
+git log: muestra el historial de commits en un repositorio
